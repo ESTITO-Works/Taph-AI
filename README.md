@@ -1,13 +1,13 @@
-# 🤖 Serendipity AI
+# 🤖 Taph AI
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1b68902-9c81-4d91-bbbb-575ef827da95" />
 
 <div align="center">
 
-![GitHub Stars](https://img.shields.io/github/stars/ESTITO-XP/Serendipity-AI?style=for-the-badge&logo=github&color=yellow)
-![GitHub Forks](https://img.shields.io/github/forks/ESTITO-XP/Serendipity-AI?style=for-the-badge&logo=github&color=blue)
-![GitHub Issues](https://img.shields.io/github/issues/ESTITO-XP/Serendipity-AI?style=for-the-badge&logo=github&color=red)
-![License](https://img.shields.io/github/license/ESTITO-XP/Serendipity-AI?style=for-the-badge&color=green)
+![GitHub Stars](https://img.shields.io/github/stars/ESTITO-XP/Taph-AI?style=for-the-badge&logo=github&color=yellow)
+![GitHub Forks](https://img.shields.io/github/forks/ESTITO-XP/Taph-AI?style=for-the-badge&logo=github&color=blue)
+![GitHub Issues](https://img.shields.io/github/issues/ESTITO-XP/Taph-AI?style=for-the-badge&logo=github&color=red)
+![License](https://img.shields.io/github/license/ESTITO-XP/Taph-AI?style=for-the-badge&color=green)
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -22,9 +22,9 @@
 
 ---
 
-## ✨ What is Serendipity AI?
+## ✨ What is Taph AI?
 
-Serendipity AI isn't just another chatbot. It's your **supportive companion** designed to bring joy, inspiration, and serendipitous discoveries to every interaction. Whether you're brainstorming ideas, seeking guidance, or just want to explore fascinating topics, Serendipity is here to make every conversation delightful.
+Taph AI isn't just another chatbot. It's your **supportive companion** designed to bring joy, inspiration, and unexpected discoveries to every interaction. Whether you're brainstorming i[...]
 
 ### 🎯 Core Philosophy
 - **Supportive** → Always encouraging and understanding
@@ -59,7 +59,7 @@ Serendipity AI isn't just another chatbot. It's your **supportive companion** de
 
 ---
 
-## 🆕 What’s New
+## 🆕 What's New
 
 - **🎙️ AI Voiceover (Experimental)**
 - Generate voiceovers for changelogs, feature drops, or README walkthroughs
@@ -89,7 +89,7 @@ Serendipity AI isn't just another chatbot. It's your **supportive companion** de
 
 - GitHub repo evolving into a transparent, creator-powered workspace
 
-- See the discussion **[here](https://github.com/ESTITO-XP/Serendipity-AI/discussions/9)**
+- See the discussion **[here](https://github.com/ESTITO-XP/Taph-AI/discussions/9)**
 ---
 
 ## 🚀 Quick Start
@@ -100,8 +100,8 @@ Serendipity AI isn't just another chatbot. It's your **supportive companion** de
 
 ### 1️⃣ Clone & Setup
 ```bash
-git clone https://github.com/ESTITO-XP/Serendipity-AI.git
-cd Serendipity-AI
+git clone https://github.com/ESTITO-XP/Taph-AI.git
+cd Taph-AI
 pip install -r requirements.txt
 ```
 
@@ -154,7 +154,7 @@ python app.py
 ## 🛠️ Tech Stack
 
 | Component | Technology | Purpose |
-|-----------|------------|---------|
+|-----------|------------|----------|
 | **Frontend** | HTML5, CSS3, JavaScript | Beautiful, responsive chat interface |
 | **Backend** | FastAPI + Python | High-performance async API server |
 | **AI Engine** | OpenAI GPT-3.5-turbo | Natural language processing |
@@ -165,7 +165,7 @@ python app.py
 ## 📁 Project Structure
 
 ```
-Serendipity-AI/
+Taph-AI/
 ├── 📄 README.md              # You are here!
 ├── ⚖️ LICENSE.txt            # MIT License
 ├── 🔧 requirements.txt       # Python dependencies
@@ -196,7 +196,7 @@ Serendipity-AI/
 ### Explore New Ideas
 ```
 👤 "What's something interesting I should explore today?"
-🤖 "What a wonderful question! Here are some serendipitous directions you might find intriguing..."
+🤖 "What a wonderful question! Here are some discoveries you might find intriguing..."
 ```
 
 ---
@@ -217,7 +217,7 @@ python app.py
 echo "web: uvicorn app:app --host=0.0.0.0 --port=\$PORT" > Procfile
 
 # Deploy
-heroku create your-serendipity-app
+heroku create your-taph-app
 heroku config:set OPENAI_API_KEY=your-key-here
 git push heroku main
 ```
@@ -237,10 +237,10 @@ railway up
 #### Docker
 ```bash
 # Build
-docker build -t serendipity-ai .
+docker build -t taph-ai .
 
 # Run
-docker run -p 8000:8000 -e OPENAI_API_KEY=your-key serendipity-ai
+docker run -p 8000:8000 -e OPENAI_API_KEY=your-key taph-ai
 ```
 
 ---
@@ -250,7 +250,7 @@ docker run -p 8000:8000 -e OPENAI_API_KEY=your-key serendipity-ai
 ### Environment Variables
 
 | Variable | Required | Description | Example |
-|----------|----------|-------------|---------|
+|----------|----------|-------------|----------|
 | `OPENAI_API_KEY` | ✅ Yes | Your OpenAI API key | `sk-proj-abc123...` |
 | `PORT` | ❌ No | Server port (default: 8000) | `8000` |
 | `LOG_LEVEL` | ❌ No | Logging level (default: info) | `info` |
@@ -298,12 +298,12 @@ Customize the interface in `static/index.html`:
 We love contributions! Here's how to get involved:
 
 ### 🐛 Found a Bug?
-1. Check **[existing issues](https://github.com/ESTITO-XP/Serendipity-AI/issues)**
+1. Check **[existing issues](https://github.com/ESTITO-XP/Taph-AI/issues)**
 2. Create a new issue with details
 3. Include steps to reproduce
 
 ### 💡 Have an Idea?
-1. Open a **[discussion](https://github.com/ESTITO-XP/Serendipity-AI/discussions)**
+1. Open a **[discussion](https://github.com/ESTITO-XP/Taph-AI/discussions)**
 2. Describe your feature idea
 3. Let's collaborate on implementation
 
@@ -334,9 +334,9 @@ We love contributions! Here's how to get involved:
 
 ## 🏆 Inspiration
 
-Serendipity AI was inspired by the belief that AI should be more than just a tool—it should be a **companion** that brings joy, support, and unexpected discoveries to our daily lives.
+Taph AI was inspired by the belief that AI should be more than just a tool—it should be a **companion** that brings joy, support, and unexpected discoveries to our daily lives.
 
-> *"The beautiful thing about serendipity is that it transforms ordinary moments into extraordinary discoveries."*
+> *"The beautiful thing about discovery is that it transforms ordinary moments into extraordinary experiences."*
 
 ---
 
@@ -344,12 +344,12 @@ Serendipity AI was inspired by the belief that AI should be more than just a too
 
 ### 💡 Any Ideas?
 
-💬 Make It A **[Discussion](https://github.com/ESTITO-XP/Serendipity-AI/discussions)**
+💬 Make It A **[Discussion](https://github.com/ESTITO-XP/Taph-AI/discussions)**
 
 ### 🌟 Show Your Support
-If Serendipity AI brought some joy to your day:
-- **⭐ [Star](https://github.com/ESTITO-XP/Serendipity-AI) this repository**
-- **🍴 [Fork](https://github.com/ESTITO-XP/Serendipity-AI/fork) and customize for your needs**
+If Taph AI brought some joy to your day:
+- **⭐ [Star](https://github.com/ESTITO-XP/Taph-AI) this repository**
+- **🍴 [Fork](https://github.com/ESTITO-XP/Taph-AI/fork) and customize for your needs**
 - **📢 Share with friends who might enjoy it**
 - **🤝 Contribute to make it even better**
 
@@ -378,6 +378,6 @@ Follow me across platforms:
 
 <div align="center">
 
-*Made with serendipity in mind* ✨
+*Made with care in mind* ✨
 
 </div>
