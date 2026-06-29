@@ -1,6 +1,6 @@
 # 🤖 Taph AI
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/f1b68902-9c81-4d91-bbbb-575ef827da95" />
+<img width="500" height="500" alt="Taph AI" src="https://github.com/user-attachments/assets/a6c9cbb3-78a2-4bbb-8691-fe62f9405384" />
 
 <div align="center">
 
